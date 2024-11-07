@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake or Real News Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Fake or Real News Prediction</h1>
+        <form action="/predict" method="POST">
+            <label for="content">Enter News Title and Content:</label><br>
+            <textarea name="content" rows="10" cols="60" required></textarea><br><br>
+            <button type="submit">Predict</button>
+        </form>
+        
+        {% if prediction_label %}
+            <h2>Prediction: {{ prediction_label }}</h2>
+            <p><strong>Input:</strong> {{ content }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
