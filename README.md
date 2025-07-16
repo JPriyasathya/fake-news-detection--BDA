@@ -44,9 +44,13 @@ Report – Detailed analysis in ACM-format PDF.
 **💻 Tech Stack**
 
 Language: Python
+
 Libraries: scikit-learn, TensorFlow/Keras or PyTorch
+
 Notebooks: Jupyter
+
 Data: Curated news articles, labeled real vs. fake
+
 Output: .pkl model files, evaluation metrics, visualizations
 
 **DATASET LINK** - https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset/data
