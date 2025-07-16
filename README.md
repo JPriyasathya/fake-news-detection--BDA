@@ -10,7 +10,7 @@ Tech Stack
 
 **🌟 Overview**
 
-This project addresses misinformation by analyzing news articles and classifying them as real or fake. It includes:
+The project addresses misinformation by analyzing news articles and classifying them as real or fake. It includes:
 Data preprocessing
 Feature engineering
 Model training
