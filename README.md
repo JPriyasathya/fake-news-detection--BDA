@@ -1,34 +1,10 @@
-# 📰 Fake News Detection (Big Data Analytics Project)
+# 📰 Fake News Detection (Python - Machine Learning Project)
 
-**📌 Project Overview**
+**Project Overview**
 
-🎯 This project focuses on Fake News Detection using Machine Learning techniques. The objective is to build a model that can efficiently classify whether a news headline or article is fake or real based on its textual content. The project involves data preprocessing, feature extraction, model training, and accuracy evaluation.
+🎯 This project aims to build a Fake News Detection System using Python and Machine Learning techniques. It classifies news articles as Fake or Real using text processing and supervised learning algorithms.
 
-**📚 Problem Statement**
-
-With the rise of misinformation on digital platforms, detecting fake news has become crucial. This system helps identify fake or real news articles using supervised machine learning models, contributing towards reducing misinformation spread.
-
-**⚙️ Workflow Summary**
-
-✅ 1. Data Collection
-
-Used publicly available Fake News dataset containing labeled news articles (real/fake).
-
-✅ 2. Data Preprocessing
-
-Removed unnecessary columns, null values, and performed text cleaning (removing punctuations, lowercasing, stop-word removal, etc.).
-
-✅ 3. Exploratory Data Analysis (EDA)
-
-Conducted basic visualizations to understand class distribution and most frequent words in fake and real news.
-
-✅ 4. Feature Extraction
-
-Applied TF-IDF (Term Frequency-Inverse Document Frequency) vectorization to convert text into numerical format suitable for machine learning algorithms.
-
-✅ 5. Model Building
-
-Trained and tested different classification algorithms:
+**🎯 Multiple machine learning models were implemented and evaluated, including:**
 
 Logistic Regression
 
@@ -36,60 +12,48 @@ Naive Bayes
 
 Support Vector Machine (SVM)
 
-✅ 6. Model Evaluation
+Random Forest Classifier
 
-Evaluated using accuracy, precision, recall, F1-score, and confusion matrix for comparison.
+LSTM (Neural Network)
 
-✅ 7. Final Model Selection
+🎯 The model achieves the highest accuracy using Logistic Regression with TF-IDF feature extraction.
 
-Selected the model with the highest accuracy and balanced performance metrics for final deployment.
+**Features**
+
+📌 Text Preprocessing — Combines title and text, cleans and processes news articles.
+
+📌 Feature Extraction — Uses TF-IDF Vectorization to convert text into numerical features.
+
+📌 Model Comparison — Compares Logistic Regression, Naive Bayes, SVM, Random Forest, and LSTM models.
+
+📌 Model Saving — Final pipeline model saved using pickle for reuse.
+
+📌 Performance Metrics — Uses accuracy score and classification report to measure model effectiveness.
+
+**Dataset Information**
+
+✅ Dataset sourced from Fake and Real News datasets.
+
+✅ Labeled as:
+
+1 → Real News
+
+0 → Fake News
+
+✅ Dataset is shuffled, preprocessed, and split into 80% training and 20% testing.
+
+**Technologies Used**
+
+🟣 Python
+
+🟢 Libraries:
+
+pandas, numpy
+
+scikit-learn
+
+tensorflow (for LSTM)
+
+joblib, pickle (for model saving)
 
 
- 
-**🚀 Features**
-
-📌 Fake News Classification
-
-— Accurately detects and classifies news headlines/articles as fake or real.
-
-📌 Preprocessed Clean Data 
-
-— Cleans raw news data for efficient model performance.
-
-📌 Multiple ML Models Compared 
-
-— Compares multiple algorithms for best accuracy.
-
-📌 Detailed Accuracy Reports 
-
-— Includes confusion matrix, precision, recall, F1 score in outputs.
-
-
-**💡 Machine Learning Concepts Used**
-
-✅ Supervised Learning
-
-– Binary classification (Fake/Real).
-
-✅ Natural Language Processing (NLP) 
-
-– Tokenization, stop word removal, TF-IDF vectorization.
-
-✅ Model Evaluation Metrics 
-
-– Accuracy, Precision, Recall, F1-Score.
-
-
-**🖥️ Technologies Used**
-
-Python 3.x
-
-Pandas for data manipulation
-
-NumPy for numerical operations
-
-Scikit-learn (sklearn) for ML models and preprocessing
-
-Matplotlib & Seaborn for data visualization
-
-Jupyter Notebook for code execution and documentation
