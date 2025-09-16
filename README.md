@@ -1,6 +1,7 @@
 # 📰 Fake News Detection (Python - Machine Learning Project)
 
 **Project Overview**
+
 The project aims to build a Fake News Detection System using Python and Machine Learning techniques. It classifies news articles as Fake or Real using text processing and supervised learning algorithms.
 
 **Multiple machine learning models were implemented and evaluated, including:**
@@ -29,20 +30,22 @@ The model achieves the highest accuracy using Logistic Regression with TF-IDF fe
 📌 Performance Metrics — Uses accuracy score and classification report to measure model effectiveness.
 
 **Dataset Information**
+
 Dataset sourced from Fake and Real News datasets.
+
 Labeled as:
+
 1 → Real News
 0 → Fake News
+
 Dataset is shuffled, preprocessed, and split into 80% training and 20% testing.
 
 **Technologies Used**
 
-🟣 Python
+Python
 
-🟢 Libraries:
+Libraries:
 
-pandas, numpy
-scikit-learn
-joblib, pickle (for model saving)
+pandas, numpy, scikit-learn, joblib, pickle (for model saving)
 
 
