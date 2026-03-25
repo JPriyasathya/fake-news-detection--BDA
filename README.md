@@ -47,4 +47,5 @@ Python
 Libraries : pandas, numpy, scikit-learn, joblib, pickle (for model saving)
 
 KAGGLE LINK - https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset/data
+
 DEPLOYMENT LINK - https://fake-news-detection-fyhg.onrender.com
